@@ -15,7 +15,7 @@ body{
 }
 
 .container {
-    background-color: #B36E35;
+    background-color: #B39E35;
     background-image: url("images/4.jpg");
     width: 900px;
     margin: 0 auto;
@@ -64,8 +64,7 @@ img{
     height: 100px;
     border-radius: 100%;;
     border: 1px solid #aaa;
-    vertical-align: middle;
-    
+    vertical-align: middle;  
 }
 
 .box-title{
@@ -74,7 +73,7 @@ img{
 }
 
 #services{
-    background: #999;
+    background: #708646;
     padding: 30px;
     color: white !important;
     text-align: center;
