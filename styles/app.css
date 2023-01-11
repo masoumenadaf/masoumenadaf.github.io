@@ -1,13 +1,25 @@
+@font-face {
+    font-family: "yekanHsy";
+    src: url("./../fonts/YekanBakh.woff");
+}
+@font-face {
+    font-family: "samim";
+    src: url("./../fonts/Samim.woff2");
+}
+
+
 * {
     padding: 0;
     margin: 0;    
     box-sizing: border-box;
 }
 
+
+
 body{
     
     color: rgb(2, 48, 48);
-    font-family: B Yekan;
+    font-family: "yekanHsy";
     background-color: rgb(253, 234, 206);
 }
 .clear {
@@ -22,7 +34,8 @@ body{
     padding: 20px 0;
 }
 .motivation{
-    font-family: B Titr;
+    font-family: samim;
+    font-weight: 600;
     text-align: center;
     color: #902A64;
     padding-top: 50px;
