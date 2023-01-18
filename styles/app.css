@@ -14,14 +14,12 @@
     box-sizing: border-box;
 }
 
-
-
 body{
-    
     color: rgb(2, 48, 48);
     font-family: "yekanHsy";
     background-color: rgb(253, 234, 206);
 }
+
 .clear {
     clear: both;
 }
@@ -33,6 +31,7 @@ body{
     margin: 0 auto;
     padding: 20px 0;
 }
+
 .motivation{
     font-family: samim;
     font-weight: 600;
@@ -40,6 +39,7 @@ body{
     color: #902A64;
     padding-top: 50px;
 }
+
 div:hover .motivation{
     color:azure;
     background-color: #f8c8a0;
@@ -78,6 +78,9 @@ img{
     border-radius: 100%;;
     border: 1px solid #aaa;
     vertical-align: middle;  
+}
+.image{
+    padding-right: 3px;
 }
 
 .box-title{
