@@ -11,7 +11,8 @@ div.gallery {
   
   div.gallery img {
     width: 25%;
-    height: auto;
+    float: right;
+    padding: 5px;
   }
   
   div.desc {
