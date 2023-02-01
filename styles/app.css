@@ -70,7 +70,6 @@ header .motivation{
 }
 
 img{
-    float: right;
     width: 150px;
     height: 150px;
     border-radius: 100%;;
@@ -78,8 +77,7 @@ img{
     vertical-align: middle;
     background: #fddbce;
      margin: 5px;
-    
-    }
+   }
     section #projects img{
         width: 100%;
         height: auto;
@@ -119,4 +117,16 @@ img{
 }
 #services .service-description{
     text-align: center;
+}
+#projects > div{
+    width: 25%;
+    float: right;
+    padding: 5px;
+}
+
+#projects > div > div{
+    background-color: #fddbce;
+    border-radius: 5px;
+    text-align: center;
+
 }
